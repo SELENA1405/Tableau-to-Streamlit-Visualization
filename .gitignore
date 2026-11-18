@@ -3,6 +3,3 @@ __pycache__/
 .DS_Store
 .streamlit/secrets.toml
 
-# Class dataset stays local
-data/*
-!data/README.md

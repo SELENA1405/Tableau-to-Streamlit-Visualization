@@ -30,6 +30,7 @@ Put the class dataset (CSV or Excel) in `data/` (see [data/README.md](data/READM
 ## Files
 
 - `app.py`: the Streamlit app
-- `data/`: the dataset goes here (not committed; it's class material)
+- `requirements.txt`: Python packages, used by Streamlit Community Cloud
+- `data/`: the dataset (`Wk08_dataset.xlsx`)
 - `screenshots/`: dashboard screenshots for submission
 - `PROMPTS.md`: AI prompts and the model used
