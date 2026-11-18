@@ -1,3 +1,35 @@
-# In-Class Assessment 11
+# In-Class Assessment 11: Academic & QA Staff Dashboard
 
-Data Visualization — Week 11: Data Visualization with Python.
+Data Visualization, Week 11: a Streamlit rebuild of our Week 8/9 Tableau dashboard on teaching evaluations.
+
+## What it shows
+
+- **Figure 1:** How do departments compare across the three skill areas? (heatmap of average human skill, material and teaching skill scores by department)
+- **Figure 2:** Which instructors need teaching support? (average teaching skill score per instructor, grouped by department, with an adjustable support threshold)
+- **Figure 3:** Which subjects have the weakest teaching materials? (average material score per subject, with an average reference line)
+
+Refinements over the Tableau version:
+
+- Sidebar filters for year, semester, department and subject
+- **Figure 4:** how the three skill areas changed by year and semester, overall or split by department
+- A teaching-support threshold slider that flags instructors below it
+- Summary KPIs (class sections, instructors, subjects, response rate, skill averages) and auto-generated takeaways under each figure
+- A downloadable table of the filtered data
+
+## Run it
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install streamlit pandas plotly openpyxl
+streamlit run app.py
+```
+
+Put the class dataset (CSV or Excel) in `data/` (see [data/README.md](data/README.md)), or upload it from the app's sidebar.
+
+## Files
+
+- `app.py`: the Streamlit app
+- `data/`: the dataset goes here (not committed; it's class material)
+- `screenshots/`: dashboard screenshots for submission
+- `PROMPTS.md`: AI prompts and the model used
