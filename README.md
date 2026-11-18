@@ -1,8 +1,8 @@
-# In-Class Assessment 11: Academic & QA Staff Dashboard
+# Tableau to Streamlit Visualization
 
 Data Visualization, Week 11: a Streamlit rebuild of our Week 8/9 Tableau dashboard on teaching evaluations.
 
-**Live dashboard:** https://selena1405-tableau-to-streamlit-visualization-app-rukrav.streamlit.app/
+**Live dashboard:** [Open the Academic & QA Staff dashboard](https://selena1405-tableau-to-streamlit-visualization-app-rukrav.streamlit.app/)
 
 If the app has been idle, it may show a sleep screen first. Click "Yes, get this app back up!" and wait about 30 seconds.
 
