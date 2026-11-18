@@ -2,6 +2,10 @@
 
 Data Visualization, Week 11: a Streamlit rebuild of our Week 8/9 Tableau dashboard on teaching evaluations.
 
+**Live dashboard:** https://selena1405-tableau-to-streamlit-visualization-app-rukrav.streamlit.app/
+
+If the app has been idle, it may show a sleep screen first. Click "Yes, get this app back up!" and wait about 30 seconds.
+
 ## What it shows
 
 - **Figure 1:** How do departments compare across the three skill areas? (heatmap of average human skill, material and teaching skill scores by department)
